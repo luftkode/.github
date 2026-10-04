@@ -1,5 +1,5 @@
 ---
-name: User story (simple)
+name: User story
 about: A short user story with acceptance criteria
 ---
 
