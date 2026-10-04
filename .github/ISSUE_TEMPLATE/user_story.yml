@@ -1,0 +1,45 @@
+name: User story
+description: Describe what someone needs and why
+body:
+  - type: input
+    id: role
+    attributes:
+      label: As a
+      description: Who needs this?
+      placeholder: pilot, operator, developer...
+    validations:
+      required: true
+
+  - type: textarea
+    id: want
+    attributes:
+      label: I want
+      description: What do they need to be able to do?
+      placeholder: to see GPS fix quality on the pilot display
+    validations:
+      required: true
+
+  - type: textarea
+    id: so_that
+    attributes:
+      label: So that
+      description: Why does it matter to them?
+      placeholder: I know when position data can be trusted
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How do we know it's done?
+      value: |
+        - [ ] 
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Context, logs, screenshots, links to related issues
